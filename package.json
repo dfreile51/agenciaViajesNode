@@ -1,0 +1,19 @@
+{
+  "name": "agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Primer proyecto con Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfreile51/agenciaViajesNode.git"
+  },
+  "author": "Diego Freile García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfreile51/agenciaViajesNode/issues"
+  },
+  "homepage": "https://github.com/dfreile51/agenciaViajesNode#readme"
+}
