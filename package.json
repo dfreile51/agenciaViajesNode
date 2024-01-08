@@ -4,8 +4,9 @@
   "description": "Primer proyecto con Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dfreile51/agenciaViajesNode.git"
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/dfreile51/agenciaViajesNode/issues"
   },
-  "homepage": "https://github.com/dfreile51/agenciaViajesNode#readme"
+  "homepage": "https://github.com/dfreile51/agenciaViajesNode#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
