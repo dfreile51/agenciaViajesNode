@@ -3,4 +3,27 @@ extends ./layout/index
 block contenido
     main.container.mt-5 
         .row 
-            h1= pagina
+            .col-md-5 
+                img(src="img/nosotros.jpg" alt="imagen sobre nosotros" class="img-fluid")
+            .col-md-7
+                h1= pagina
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis sem faucibus nunc malesuada condimentum at id justo. Suspendisse potenti. Curabitur semper ligula ut elementum consequat. Morbi sed placerat mi. Nulla sit amet felis mollis, finibus tortor id, blandit est. Phasellus purus enim, blandit ac rhoncus ut, vestibulum eget nunc. Morbi mi neque, rhoncus non tincidunt eget, fermentum id neque.
+
+                p Nunc convallis placerat massa ut eleifend. Cras a semper mi. Integer volutpat bibendum turpis sit amet mattis. Nulla facilisi. Duis arcu sem, sollicitudin non velit id, dictum gravida neque. Sed placerat mauris nec ipsum convallis malesuada. Ut porta cursus hendrerit. Vivamus at condimentum enim. Phasellus et mauris eu nunc pellentesque euismod vitae in nibh. Phasellus dapibus ligula porttitor lorem ornare, sed venenatis ante faucibus. Nullam aliquam urna vitae felis imperdiet, nec convallis est sagittis. Cras placerat nisl elit, nec interdum massa aliquet a.
+
+                p Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque vitae porta libero. Phasellus egestas sed velit id commodo. Donec eget vulputate ipsum. Etiam aliquet sem feugiat vestibulum finibus. Maecenas ut elit efficitur, iaculis urna id, varius orci. Aenean eget erat sed elit tincidunt rhoncus a quis nisl. Morbi sed nisl congue, interdum sapien accumsan, porttitor ligula. Nam a eleifend dui. Quisque nec pulvinar risus. Aenean in mollis turpis. Praesent ut pretium elit. Aliquam lacus sem, ullamcorper in diam vel, varius commodo lectus. Mauris volutpat interdum elit, nec suscipit leo. Etiam nec porta risus, in rutrum felis.
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg" alt="icono seguridad" class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Pellentesque vitae porta libero. Phasellus egestas sed velit id commodo. Donec eget vulputate ipsum. Etiam aliquet sem feugiat vestibulum finibus. Maecenas ut elit efficitur, iaculis urna id, varius orci.
+                .col-md-4
+                    img(src="img/icono_destinos.svg" alt="icono destinos" class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Pellentesque vitae porta libero. Phasellus egestas sed velit id commodo. Donec eget vulputate ipsum. Etiam aliquet sem feugiat vestibulum finibus. Maecenas ut elit efficitur, iaculis urna id, varius orci.
+                .col-md-4
+                    img(src="img/icono_precios.svg" alt="icono precios" class="img-fluid mb-4")
+                    h2.mb-4 Los mejores Precios 
+                    p Pellentesque vitae porta libero. Phasellus egestas sed velit id commodo. Donec eget vulputate ipsum. Etiam aliquet sem feugiat vestibulum finibus. Maecenas ut elit efficitur, iaculis urna id, varius orci.
