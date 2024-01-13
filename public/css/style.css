@@ -41,7 +41,7 @@ h3 {
 }
 
 .slider {
-    background: url(../img//superior.jpg);
+    background: url(../img/superior.jpg);
     min-height: 600px;
     height: 100vh;
     background-size: cover;
@@ -124,7 +124,7 @@ footer .nav a,
 
 .descuento {
     height: 400px;
-    background-image: linear-gradient(rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .5) 100%), url(../img/cupon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, .6) 100%), url(../img/cupon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -132,11 +132,7 @@ footer .nav a,
 @media (min-width:768px) {
     .descuento {
         height: 400px;
-        background-image: linear-gradient(to right,
-                rgba(0, 0, 0, .5) 0%,
-                rgba(0, 0, 0, .5) 50%,
-                transparent 50%,
-                transparent 100%), url(../img/cupon.jpg);
+        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 25%, transparent 70%), url(../img/cupon.jpg);
     }
 }
 
